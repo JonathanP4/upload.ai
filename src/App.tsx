@@ -16,7 +16,7 @@ import PromptSelect from "./components/prompt-select";
 import { useState } from "react";
 import { useCompletion } from "ai/react";
 
-export default function App() {
+export function App() {
     const [temperature, setTemperature] = useState(0.5);
     const [videoId, setVideoId] = useState<string | null>(null);
 
